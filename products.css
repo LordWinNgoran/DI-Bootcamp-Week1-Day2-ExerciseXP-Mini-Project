@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo Mono', monospace;
+    text-decoration: none;
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    padding-bottom: 75px;
+
+}
+
+.container>* {
+    margin: 0 5px;
+    flex: 1;
+}
+#one{
+    background: url('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone14pro-202209_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1663611329204') no-repeat;
+    
+    background-size:  200px;
+    height: 200px;
+    
+}
+#two{
+    background: url('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone14-202209_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1661958160494') no-repeat;
+    
+    background-size:  200px;
+    height: 200px;
+    
+}
+#three{
+    background: url('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone13-202209?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1661958176452') no-repeat;
+    
+    background-size:  200px;
+    height: 200px;
+    
+}
+#four{
+    background: url('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone12-202209?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1661958189616') no-repeat;
+    
+    background-size:  200px;
+    height: 200px;
+    
+}
+
+
+.new{
+    background-color: lightgreen;
+    width: 40px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+}
+
+.promo{
+    background-color: red;
+    width: 40px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    margin-left: 120px;
+}
+.description{
+    padding-top: 180px;
+    width: 150px;
+    text-align: center;
+    padding-left: 15px;
+}
+.info{
+    display: flex;
+}
+.price{
+    padding-left: 25px;
+    color: lightgreen;
+    font-size: 20px;
+}
+
+
+.old{
+    margin-left: 12px;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.union{
+    display: flex;
+}
+
+button{
+    margin-left: 45px;
+    height: 30px;
+    width: 100px;
+    position:relative;
+    background-color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(56, 105, 56);
+    color: white;
+    font-weight: bolder;
+    
+}
+
+#one:hover{
+    border-radius: 5px;
+    box-shadow: 5px 1px 1px 1px  black;
+}
+#two:hover{
+    border-radius: 5px;
+    box-shadow: 5px 1px 1px 1px black;
+}
+#three:hover{
+    border-radius: 5px;
+    box-shadow: 5px 1px 1px 1px  black;
+}
+#four:hover{
+    border-radius: 5px;
+    box-shadow: 5px 1px 1px 1px black;
+}
+
